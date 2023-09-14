@@ -3,3 +3,7 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+.meme1 {
+    background: url() rgb(231, 186, 186) 50% / cover no-repeat;
+}
