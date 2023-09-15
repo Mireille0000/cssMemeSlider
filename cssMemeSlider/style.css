@@ -25,19 +25,18 @@ h1 {
     font-size: 3rem;
 }
 
-/* p {
-    font-size: 1.5rem;
-} */
+.slider-wrapper {
+    width: 55rem;
+    overflow-x: hidden;
+    display: flex;
+    margin: auto;
+}
 
 .slider-memes {
-    /* width: 55rem; */
+    width: 220rem;
     display: flex;
-    justify-self: center;
-    flex-direction: column;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin: auto;
 
-    /* background-color: #628b8d; */
     background-color: #f8d2d2;
 }
 
@@ -49,22 +48,18 @@ h1 {
 }
 
 .meme1 {
-    /* display: none; */
     background: url(meme1.jpg)rgb(231, 186, 186) 50% / cover no-repeat;
 }
 
 .meme2 {
-    display: none;
     background: url(meme2.jpeg)rgb(231, 186, 186) 50% / cover no-repeat;
 }
 
 .meme3 {
-    display: none;
     background: url(meme3.jpg)rgb(231, 186, 186) 50% / cover no-repeat;
 }
 
 .meme4 {
-    display: none;
     background: url(meme4.jpg)rgb(231, 186, 186) 50% / cover no-repeat;
 }
 
