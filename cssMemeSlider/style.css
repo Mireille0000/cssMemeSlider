@@ -4,6 +4,106 @@
     box-sizing: inherit;
 }
 
+body {
+    background-color: #f8d2d2;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d6631c;
+    text-shadow: 0.2rem 0.1rem 0.5rem #077967;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* p {
+    font-size: 1.5rem;
+} */
+
+.slider-memes {
+    /* width: 55rem; */
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+    /* background-color: #628b8d; */
+    background-color: #f8d2d2;
+}
+
+.meme {
+    width: 55rem;
+    height: 35rem;
+    border-radius: 3%;
+    align-self: center;
+}
+
 .meme1 {
-    background: url() rgb(231, 186, 186) 50% / cover no-repeat;
+    /* display: none; */
+    background: url(meme1.jpg)rgb(231, 186, 186) 50% / cover no-repeat;
+}
+
+.meme2 {
+    display: none;
+    background: url(meme2.jpeg)rgb(231, 186, 186) 50% / cover no-repeat;
+}
+
+.meme3 {
+    display: none;
+    background: url(meme3.jpg)rgb(231, 186, 186) 50% / cover no-repeat;
+}
+
+.meme4 {
+    display: none;
+    background: url(meme4.jpg)rgb(231, 186, 186) 50% / cover no-repeat;
+}
+
+/* citations and buttons */
+.under-memes-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* citations */
+.citation {
+    margin-top: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+/* pagination buttons */
+
+.pagination-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.button {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.11em solid #5a3e3e;
+    background-color: #5a3e3e;
+}
+
+.button:hover {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.11em solid rgb(156, 149, 182);
+    background-color: rgb(156, 149, 182);
+    transition: 1s;
 }
