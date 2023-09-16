@@ -5,6 +5,11 @@
 }
 
 body {
+    background-color: #806e6e;
+}
+.wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
     background-color: #f8d2d2;
 }
 
@@ -138,5 +143,24 @@ input {
     margin-left: -165rem;
     transition: 1s ease-in-out;
 }
+/* footer styles */
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+
+    background-color: #d6631c;
+}
+
+.svg-icon-footer img {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.year {
+    align-self: center;
+}
+
 
 /* media queries */
