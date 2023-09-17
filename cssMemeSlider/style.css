@@ -110,7 +110,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     gap: 0.4rem;
-    margin-top: 1rem;
+    margin-top: -3.9rem;
     margin-bottom: 3rem;
     cursor: pointer;
 }
@@ -146,7 +146,17 @@ input {
     transition: 1s ease-in-out;
 }
 
+#button1:checked ~ .citations-slider-wrapper .citations-slider  {
+    margin-left: 0;
+    transition: 1s ease-in-out;
+}
+
 #button2:checked ~ .slider-wrapper .slider-memes {
+    margin-left: -25%;
+    transition: 1s ease-in-out;
+}
+
+#button2:checked ~ .citations-slider-wrapper .citations-slider  {
     margin-left: -25%;
     transition: 1s ease-in-out;
 }
@@ -156,7 +166,17 @@ input {
     transition: 1s ease-in-out;
 }
 
+#button3:checked ~ .citations-slider-wrapper .citations-slider  {
+    margin-left: -50%;
+    transition: 1s ease-in-out;
+}
+
 #button4:checked ~ .slider-wrapper .slider-memes {
+    margin-left: -75%;
+    transition: 1s ease-in-out;
+}
+
+#button4:checked ~ .citations-slider-wrapper .citations-slider  {
     margin-left: -75%;
     transition: 1s ease-in-out;
 }
