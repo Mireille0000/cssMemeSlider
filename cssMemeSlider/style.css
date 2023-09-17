@@ -225,6 +225,10 @@ span {
 /* media queries */
 
 @media screen and (max-width: 895px) {
+    html, body, .wrapper, main {
+        height: 100%;
+    } 
+    
     .content {
         display: flex;
         flex-direction: column;
