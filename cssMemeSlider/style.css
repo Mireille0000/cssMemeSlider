@@ -38,7 +38,7 @@ h1 {
 /* slider images styles */
 
 .content {
-    max-width: 1440px;
+    max-width: 90rem;
     display: flex;
     justify-content: center;
 }
@@ -228,7 +228,7 @@ span {
     html, body, .wrapper, main {
         height: 100%;
     } 
-    
+
     .content {
         display: flex;
         flex-direction: column;
